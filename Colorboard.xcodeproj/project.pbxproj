@@ -13,6 +13,8 @@
 		ED4AFE3B1C7AEFC700EEFF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4AFE391C7AEFC700EEFF98 /* LaunchScreen.storyboard */; };
 		ED4AFE461C7AEFC700EEFF98 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE451C7AEFC700EEFF98 /* ColorboardTests.m */; };
 		ED4AFE511C7AEFC700EEFF98 /* ColorboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE501C7AEFC700EEFF98 /* ColorboardUITests.m */; };
+		ED4AFE5F1C7AF02F00EEFF98 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4AFE5E1C7AF02F00EEFF98 /* Colorboard.storyboard */; };
+		ED4AFE621C7B0C8900EEFF98 /* BNRColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE611C7B0C8900EEFF98 /* BNRColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		ED4AFE4C1C7AEFC700EEFF98 /* ColorboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4AFE501C7AEFC700EEFF98 /* ColorboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardUITests.m; sourceTree = "<group>"; };
 		ED4AFE521C7AEFC700EEFF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4AFE5E1C7AF02F00EEFF98 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
+		ED4AFE601C7B0C8900EEFF98 /* BNRColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorViewController.h; sourceTree = "<group>"; };
+		ED4AFE611C7B0C8900EEFF98 /* BNRColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +103,11 @@
 			children = (
 				ED4AFE341C7AEFC700EEFF98 /* AppDelegate.h */,
 				ED4AFE351C7AEFC700EEFF98 /* AppDelegate.m */,
+				ED4AFE601C7B0C8900EEFF98 /* BNRColorViewController.h */,
+				ED4AFE611C7B0C8900EEFF98 /* BNRColorViewController.m */,
 				ED4AFE371C7AEFC700EEFF98 /* Assets.xcassets */,
 				ED4AFE391C7AEFC700EEFF98 /* LaunchScreen.storyboard */,
+				ED4AFE5E1C7AF02F00EEFF98 /* Colorboard.storyboard */,
 				ED4AFE3C1C7AEFC700EEFF98 /* Info.plist */,
 				ED4AFE311C7AEFC700EEFF98 /* Supporting Files */,
 			);
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4AFE5F1C7AF02F00EEFF98 /* Colorboard.storyboard in Resources */,
 				ED4AFE381C7AEFC700EEFF98 /* Assets.xcassets in Resources */,
 				ED4AFE3B1C7AEFC700EEFF98 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -266,6 +275,7 @@
 			files = (
 				ED4AFE361C7AEFC700EEFF98 /* AppDelegate.m in Sources */,
 				ED4AFE331C7AEFC700EEFF98 /* main.m in Sources */,
+				ED4AFE621C7B0C8900EEFF98 /* BNRColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -385,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -397,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Colorboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cocos.Colorboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Colorboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cocos.Colorboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
