@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "BNRColorDescription.h"
 @interface BNRColorViewController : UIViewController
 
+@property (nonatomic) BOOL existingColor;
+@property (nonatomic) BNRColorDescription *colorDescription;
 @end

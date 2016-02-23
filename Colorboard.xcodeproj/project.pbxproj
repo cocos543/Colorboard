@@ -15,6 +15,8 @@
 		ED4AFE511C7AEFC700EEFF98 /* ColorboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE501C7AEFC700EEFF98 /* ColorboardUITests.m */; };
 		ED4AFE5F1C7AF02F00EEFF98 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4AFE5E1C7AF02F00EEFF98 /* Colorboard.storyboard */; };
 		ED4AFE621C7B0C8900EEFF98 /* BNRColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE611C7B0C8900EEFF98 /* BNRColorViewController.m */; };
+		ED4AFE651C7B16F700EEFF98 /* BNRPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE641C7B16F700EEFF98 /* BNRPaletteViewController.m */; };
+		ED4AFE681C7B180E00EEFF98 /* BNRColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4AFE671C7B180E00EEFF98 /* BNRColorDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		ED4AFE5E1C7AF02F00EEFF98 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
 		ED4AFE601C7B0C8900EEFF98 /* BNRColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorViewController.h; sourceTree = "<group>"; };
 		ED4AFE611C7B0C8900EEFF98 /* BNRColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorViewController.m; sourceTree = "<group>"; };
+		ED4AFE631C7B16F700EEFF98 /* BNRPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPaletteViewController.h; sourceTree = "<group>"; };
+		ED4AFE641C7B16F700EEFF98 /* BNRPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPaletteViewController.m; sourceTree = "<group>"; };
+		ED4AFE661C7B180E00EEFF98 /* BNRColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorDescription.h; sourceTree = "<group>"; };
+		ED4AFE671C7B180E00EEFF98 /* BNRColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				ED4AFE351C7AEFC700EEFF98 /* AppDelegate.m */,
 				ED4AFE601C7B0C8900EEFF98 /* BNRColorViewController.h */,
 				ED4AFE611C7B0C8900EEFF98 /* BNRColorViewController.m */,
+				ED4AFE631C7B16F700EEFF98 /* BNRPaletteViewController.h */,
+				ED4AFE641C7B16F700EEFF98 /* BNRPaletteViewController.m */,
+				ED4AFE661C7B180E00EEFF98 /* BNRColorDescription.h */,
+				ED4AFE671C7B180E00EEFF98 /* BNRColorDescription.m */,
 				ED4AFE371C7AEFC700EEFF98 /* Assets.xcassets */,
 				ED4AFE391C7AEFC700EEFF98 /* LaunchScreen.storyboard */,
 				ED4AFE5E1C7AF02F00EEFF98 /* Colorboard.storyboard */,
@@ -274,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED4AFE361C7AEFC700EEFF98 /* AppDelegate.m in Sources */,
+				ED4AFE651C7B16F700EEFF98 /* BNRPaletteViewController.m in Sources */,
+				ED4AFE681C7B180E00EEFF98 /* BNRColorDescription.m in Sources */,
 				ED4AFE331C7AEFC700EEFF98 /* main.m in Sources */,
 				ED4AFE621C7B0C8900EEFF98 /* BNRColorViewController.m in Sources */,
 			);
@@ -493,6 +505,7 @@
 				ED4AFE571C7AEFC700EEFF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED4AFE581C7AEFC700EEFF98 /* Build configuration list for PBXNativeTarget "ColorboardTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +514,7 @@
 				ED4AFE5A1C7AEFC700EEFF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED4AFE5B1C7AEFC700EEFF98 /* Build configuration list for PBXNativeTarget "ColorboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +523,7 @@
 				ED4AFE5D1C7AEFC700EEFF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
